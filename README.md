@@ -1,6 +1,6 @@
 # Predicción de Ruido de Perfiles Aerodinámicos (NASA Airfoil) con PySpark ML Pipelines
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ## Descripción General
+ ## Descripción General
 
 Este proyecto implementa un pipeline completo de Machine Learning utilizando **Apache Spark (PySpark)** para predecir el nivel de presión sonora (en decibelios) generado por perfiles aerodinámicos (airfoils), basándose en el conjunto de datos "NASA airfoil self-noise". El flujo de trabajo abarca desde la limpieza y preparación de los datos (ETL) hasta la creación, evaluación y persistencia de un modelo de regresión lineal.
 
@@ -84,19 +84,3 @@ En general, este proyecto ilustra un ciclo de vida completo de Machine Learning 
     ```
 3.  **Ejecución:** Ejecuta todas las celdas del notebook secuencialmente. El script descargará los datos necesarios, realizará el ETL, entrenará el modelo, lo evaluará y lo guardará.
 
-## Estructura de Archivos (Ejemplo)
-
-.
-├── Final_Project_Airfoil_Model/  # Directorio donde se guarda el modelo PySpark
-├── NASA_airfoil_noise_cleaned.parquet/ # Directorio con los datos limpios
-├── NASA_airfoil_noise_raw.csv    # Datos crudos descargados
-├── PipelineMLprediccionderuido.ipynb # El notebook de Jupyter/Colab
-└── README.md                     # Este archivo
-
-## Licencia del Código
-
-Este código se distribuye bajo la Licencia MIT. Ver `LICENSE` para más detalles. *(Puedes añadir un archivo LICENSE con el texto de la licencia MIT si lo deseas)*.
-
-## Autor(es)
-
-* [Nicolastorres / Nicolastorresf]
