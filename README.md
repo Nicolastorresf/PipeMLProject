@@ -85,3 +85,18 @@ En general, este proyecto ilustra un ciclo de vida completo de Machine Learning 
 3.  **Ejecución:** Ejecuta todas las celdas del notebook secuencialmente. El script descargará los datos necesarios, realizará el ETL, entrenará el modelo, lo evaluará y lo guardará.
 
 ## Estructura de Archivos (Ejemplo)
+
+.
+├── Final_Project_Airfoil_Model/  # Directorio donde se guarda el modelo PySpark
+├── NASA_airfoil_noise_cleaned.parquet/ # Directorio con los datos limpios
+├── NASA_airfoil_noise_raw.csv    # Datos crudos descargados
+├── PipelineMLprediccionderuido.ipynb # El notebook de Jupyter/Colab
+└── README.md                     # Este archivo
+
+## Licencia del Código
+
+Este código se distribuye bajo la Licencia MIT. Ver `LICENSE` para más detalles. *(Puedes añadir un archivo LICENSE con el texto de la licencia MIT si lo deseas)*.
+
+## Autor(es)
+
+* [Nicolastorres / Nicolastorresf]
